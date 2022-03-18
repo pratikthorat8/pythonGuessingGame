@@ -1,6 +1,6 @@
 #Guessing game
 import random
-print('Hello, What is your name ?')
+print('Hello, What is your name buddy ?')
 name = input() #User input.
 print("Well " + name +  " I am thinking of a number between 0 and 20")
 secret_number = random.randint(0,20) # Generates a random number between 0 and 20.
